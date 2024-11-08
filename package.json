@@ -1,0 +1,24 @@
+{
+  "name": "vuebase",
+  "version": "0.0.1",
+  "description": "Common components for Vue.js v2.x",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "awoo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "peerDependencies": {
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "vue": "^3.0.0",                
+    "pinia": "^2.0.0",               
+    "vue-router": "^4.0.0",          
+    "vue-demi": "^0.14.0"            
+  }
+}
